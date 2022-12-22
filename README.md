@@ -70,3 +70,11 @@ ESLint:
 > `npm upgrade --save eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
 
 Once done, run `npm run lint` to verify everything is still working as expected.
+
+# webpack
+
+npm install -g webpack
+npm run start:dev
+npm install -D webpack-cli
+npm install
+npm run start:dev

@@ -15,4 +15,8 @@ export default class MainGame extends Phaser.Scene {
 
 		this.add.image(this.cameras.main.centerX, this.cameras.main.centerY, "Phaser-Logo-Small");
 	}
+
+	public update(time: number, delta: number): void {
+		
+	}
 }
