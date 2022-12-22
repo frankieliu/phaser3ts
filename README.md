@@ -78,3 +78,7 @@ npm run start:dev
 npm install -D webpack-cli
 npm install
 npm run start:dev
+
+# git
+
+hub requires an access token
