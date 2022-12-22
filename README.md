@@ -81,4 +81,21 @@ npm run start:dev
 
 # git
 
-hub requires an access token
+hub requires a personal access token instead of a password
+1. [hub](hub.github.com)
+
+# debugging
+
+1. Open folder in vscode to this repo (folder which contains this README.md)
+   1. It really depends on where you set up your workspace, .vscode/launch.json will be generated at the root of your workspace
+   1. If you happen to have this repo as a subdir of the workspace, then you need to point webRoot as ${workspaceFolder}/<repo>
+   1. If you happen to have this repo as the root of the workspace, then you can leave launch.json with webRoot as ${workspaceFolder}
+1. Also you need to set chrome's execution path
+   1. chrome://version
+   1. look for executable path
+   1. set that in launch.json runtimeExecutable
+1. Install the plugin
+   1. JavaScript Debugger from Microsoft
+1. If you still have problems binding breakpoints
+   1. Inspect the Source from chrome devtools
+   1. You should find something resembling the source path, relative to webRoot
