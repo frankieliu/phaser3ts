@@ -71,7 +71,13 @@ ESLint:
 
 Once done, run `npm run lint` to verify everything is still working as expected.
 
-# webpack
+# starting from scratch
+
+1. clone repo
+1. npm i -g webpack-dev-server
+1. npm i -g webpack-cli
+1. npm install
+1. npm run start:dev
 
 npm install -g webpack
 npm run start:dev
@@ -86,10 +92,12 @@ hub requires a personal access token instead of a password
 
 # debugging
 
+## setup
 1. Open folder in vscode to this repo (folder which contains this README.md)
    1. It really depends on where you set up your workspace, .vscode/launch.json will be generated at the root of your workspace
    1. If you happen to have this repo as a subdir of the workspace, then you need to point webRoot as ${workspaceFolder}/<repo>
    1. If you happen to have this repo as the root of the workspace, then you can leave launch.json with webRoot as ${workspaceFolder}
+   1. more on [webRoot](https://stackoverflow.com/questions/52377756/what-is-webroot-in-the-vscode-chrome-debugger-launch-launch-config?noredirect=1&lq=1)
 1. Also you need to set chrome's execution path
    1. chrome://version
    1. look for executable path
@@ -99,3 +107,16 @@ hub requires a personal access token instead of a password
 1. If you still have problems binding breakpoints
    1. Inspect the Source from chrome devtools
    1. You should find something resembling the source path, relative to webRoot
+1. more on server client [debugging](http://geeklit.blogspot.com/2020/05/debugging-typescript-phaser-apps-server.html)
+
+## debugging
+
+1. make sure npm install steps above are done
+1. npm run start:dev
+1. click on play button in vscode
+1. choose the Launch chrome against localhost - this was named in launch.json
+
+# Phaser and Typescript
+
+[to read](http://www.photonstorm.com/phaser/how-to-use-phaser-with-typescript)
+
