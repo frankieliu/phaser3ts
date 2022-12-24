@@ -31,7 +31,7 @@ export default class Game extends Phaser.Game {
 		this.scene.add(MainSettings.Name, MainSettings);
 		this.scene.add(Scene1.Name, Scene1);
 		this.scene.add(Scene2.Name, Scene2);
-
+		this.scene.
 		this.scene.start(Boot.Name);
 	}
 }
