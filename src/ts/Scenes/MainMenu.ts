@@ -35,6 +35,5 @@ export default class MainMenu extends Phaser.Scene {
 
 	public update(): void {
 		// Update logic, as needed.
-		this.scene.
 	}
 }
