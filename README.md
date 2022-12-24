@@ -80,8 +80,9 @@ Once done, run `npm run lint` to verify everything is still working as expected.
 1. npm run start:dev
 
 npm install -g webpack
+npm install -g webpack-dev-server
+npm install -g webpack-cli
 npm run start:dev
-npm install -D webpack-cli
 npm install
 npm run start:dev
 

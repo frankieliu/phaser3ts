@@ -19,7 +19,8 @@
 	"scripts": {
 		"build": "webpack --mode production",
 		"build-dev": "webpack --mode none",
-		"start:dev": "webpack serve --mode production",
+		"start:prod": "webpack serve --mode production",
+		"start:dev": "webpack server --mode development",
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx || (exit 0)"
 	},
 	"devDependencies": {
