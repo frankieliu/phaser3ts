@@ -121,5 +121,5 @@ hub requires a personal access token instead of a password
 
 [to read](http://www.photonstorm.com/phaser/how-to-use-phaser-with-typescript)
 
-# vscode identatation problems with typescript
+# vscode identation problems with typescript
 https://stackoverflow.com/questions/34174207/how-to-change-indentation-in-visual-studio-code
